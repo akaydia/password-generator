@@ -9,7 +9,7 @@ Created a password generator that meets a certain criteria.
 - If the prompts are answered correctly, a password with the users inputs will be appended in the text area.
 
 ## Screenshot
-![image of website](assets/images/website-demo.png)
+![image of website](assets/images/password-generator-demo.png)
 
 ## Link to Deploy
-[Website](https://akaydia.github.io/ricky-nguyen-portfolio/)
+[Website](https://akaydia.github.io/password-generator/)
