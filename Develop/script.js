@@ -8,7 +8,11 @@ let atLeastOneSelected = false;
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
-
+// The function generatePassword takes in the length the user inputs and the other parameters are boolean values that the user sets if they want lowercase, uppercase, numbers or special characters.
+// the while loops outside of the "length" one are not necessary, and should just be if statements, but for ease of copy pasting my own code I left it as it is.
+// if the user selects "y" for any of the lowercase, uppercase, num or special characters the boolean value "atLeastOneSelected" is set to true, otherwise they will have to redo the prompts.
+// the "flag" variable allows the code to traverse throughout the function and enter in and out of the while loops.
+// the variables in the generatePassword() function adjust the global variables so when the writePassword() function is called, it will take in the users inputs.
 function generatePassword(length, lowercase, uppercase, num, special) {
   let password = "";
   let randomPass = [];
